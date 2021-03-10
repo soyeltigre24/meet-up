@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import ScrollToTop from "./component/scrollToTop";
+import Page1 from "./views/cardpage1";
 
 import { Home } from "./views/home";
 import { Demo } from "./views/demo";
@@ -21,6 +22,9 @@ const Layout = () => {
 					<Switch>
 						<Route exact path="/">
 							<Home />
+						</Route>
+						<Route exact path="/page1">
+							<Page1 />
 						</Route>
 						<Route exact path="/demo">
 							<Demo />
