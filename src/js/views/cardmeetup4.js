@@ -1,6 +1,6 @@
 import React from "react";
 
-const Card3 = () => {
+const Card4 = () => {
 	return (
 		<div className="card" style={{ width: "40%", margin: "auto" }}>
 			<div className="card-header d-flex justify-content-start " style={{ fontSize: "30px" }}>
@@ -12,4 +12,4 @@ const Card3 = () => {
 		</div>
 	);
 };
-export default Card3;
+export default Card4;
