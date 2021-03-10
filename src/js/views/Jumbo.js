@@ -2,11 +2,10 @@ import React from "react";
 
 const Jumbo = () => {
 	return (
-		<div className="jumbotron">
-			<h1 className="display-4">Hello, world!</h1>
+		<div className="jumbotron" style={{ background: "grey" }}>
+			<h1 className="display-4">The Meetup Clone</h1>
 			<p className="lead">
-				This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured
-				content or information.
+				This is a mini project created by <div style={{ color: "blue" }}>4 geeks Academy </div>
 			</p>
 
 			<p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
